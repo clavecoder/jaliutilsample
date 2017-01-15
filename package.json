@@ -1,7 +1,7 @@
 {
   "name": "jaliutiltest",
   "version": "1.0.0",
-  "description": "Sample use of @jali/util package.",
+  "description": "Sample use of @jali-ms/util package.",
   "main": "index.js",
   "repository": "gist:11081aaa281",
   "scripts": {

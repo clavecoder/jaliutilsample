@@ -4,12 +4,18 @@ import * as console from 'console';
 
 import * as util from '@jali-ms/util';
 
-// https://twitter.com/rauschma/status/807585673049837568
-(async() => {
-  const result = await util.Iterables.concat(['Hi',','], [' ', 'Mom', '!']);
+const result1 = util.Iterables.concat([1], [2], [3], [4]);
 
-  const str = [...result].join('');
+console.log('Demonstrates for..of:');
+for (const element of result1){
+  console.log(element);
+}
 
-  console.log(str);
-})();
+const result2 = util.Iterables.concat(['Hi',','], [' ', 'Mom', '!']);
+
+console.log();
+console.log('Demonstrates spread operator:');
+const str = [...result2].join('');
+console.log(str);
+
 
