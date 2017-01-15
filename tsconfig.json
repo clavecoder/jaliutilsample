@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": [
+      "es2015"
+    ],
+    "target": "es2015",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "sourceMap": true
+  },
+  "files": [
+    "server.ts"
+  ],
+  "typeAcquisition": {
+    "enable": true
+  }
+}

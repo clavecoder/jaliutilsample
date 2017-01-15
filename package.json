@@ -1,0 +1,21 @@
+{
+  "name": "jaliutiltest",
+  "version": "1.0.0",
+  "description": "Sample use of @jali/util package.",
+  "main": "index.js",
+  "repository": "gist:11081aaa281",
+  "scripts": {
+    "build": "tsc",
+    "pretest": "npm run build",
+    "test": "npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@jali-ms/util": "0.0.1-prealpha.2"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.60",
+    "typescript": "^2.1.5"
+  }
+}
